@@ -1,0 +1,22 @@
+[project]
+name = "langchain-notes"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Isitha Tennakoon",email = "82481046+IsithaT@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4"
+dependencies = [
+    "langchain-community (>=0.3.27,<0.4.0)",
+    "pypdf (>=5.9.0,<6.0.0)",
+    "ipykernel (>=6.30.0,<7.0.0)",
+    "langchain-openai (>=0.3.28,<0.4.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "langchain-qdrant (>=0.2.0,<0.3.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
